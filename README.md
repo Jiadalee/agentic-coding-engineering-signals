@@ -8,7 +8,7 @@
 
 > **"Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Development"**
 >
-> *Jiada Li, Xuesong Ye, and Olamide Olowoniyi* (2026)
+> *Jiada Li (Ph.D.), Xuesong Ye, and Olamide Olowoniyi* (2026)
 
 ---
 
@@ -67,7 +67,7 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 ├── sample_bot_comments.py               # Draw random samples of bot comments
 ├── validate_bot_comments.py             # Audit bot comment precision
 ├── generate_figures.py                  # Reproduce paper visualizations (Figures 1–9)
-├── manuscript_references.bib            # Primary bibliography file                                   
+├── manuscript_references_v2.bib         # Primary bibliography file                                   
 └── requirements.txt                     # Required python modules to be installed before run the analysis
 ```
 
@@ -79,9 +79,9 @@ Development activity is segmented into four analytical eras aligned with major i
 
 | Era | Period | Label | Key Event |
 |-----|--------|-------|-----------|
-| 0 | Feb 2023 – Sep 2023 | Pre-Agentic Baseline | Copilot pre-GA |
-| 1 | Oct 2023 – May 2024 | Early AI Coding Tools | Copilot GA; SGLang launch |
-| 2 | Jun 2024 – Dec 2024 | Vibe Coding Mainstream | AI tools mainstream |
+| 0 | Feb 2023 – Sep 2023 | Pre-Agentic Baseline: Early AI-Assisted Coding | Copilot pre-GA |
+| 1 | Oct 2023 – May 2024 | Early AI Coding Tools  Exapansion | Copilot GA; SGLang launch |
+| 2 | Jun 2024 – Dec 2024 | Vibe Coding Mainstream with Software Workflow Integration | AI tools mainstream |
 | 3 | Jan 2025 – Jun 2026 | Agentic Coding Emergence | Claude Code GA; Cursor Agent |
 
 **Note:** Era definitions serve as temporal analytical categories rather than direct causal indicators of specific tool adoption.
