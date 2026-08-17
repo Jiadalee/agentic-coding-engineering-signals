@@ -1,6 +1,7 @@
 # Engineering Signals of Human–AI Collaboration in the Agentic Coding Era
 Engineering Signals of Human–AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Development
 
+# Engineering Signals of Human–AI Collaboration in the Agentic Coding Era
 
 [![arXiv](https://img.shields.io/badge/arXiv-2608.13884-b31b1b.svg)](https://arxiv.org/abs/2608.13884)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
@@ -72,7 +73,6 @@ The repository structure matches the analysis pipeline and raw/processed data ar
 ├── manuscript_references_v2.bib      # Expanded/updated bibliography
 ├── README.md
 └── requirements.txt
-
 🗓️ Development Eras
 Development activity is segmented into four analytical eras aligned with major industry shifts in AI-assisted development:
 
@@ -90,11 +90,54 @@ Note: Era definitions serve as temporal analytical categories rather than direct
 1. Installation
 Clone the repository and install required Python packages:
 
+Bash
 git clone [https://github.com/](https://github.com/)<YOUR-USERNAME>/agentic-coding-engineering-signals.git
 cd agentic-coding-engineering-signals
 pip install -r requirements.txt
-
 2. Run Pipeline & Compute Metrics
 Execute the data pipeline to extract and calculate all longitudinal metrics:
 
+Bash
 python run_pipeline.py
+Or run individual metric scripts separately:
+
+Bash
+python compute_metrics.py
+python compute_bot_metrics.py
+python estimate_bot_comments.py
+3. Generate Manuscript Figures
+Reproduce Figures 1–9 reported in the paper:
+
+Bash
+python generate_figures.py
+🧬 Biomedical AI & Bioinformatics Implications
+While the empirical data is collected from high-velocity AI infrastructure projects, the observed signals provide actionable insights for scientific software engineering:
+
+Biomedical AI Agents: Informs governance, automated testing, and agentic contribution boundaries for clinical/genomic agent repositories.
+
+Bioinformatics Pipelines: Demonstrates how rapid developer onboarding and high PR throughput can be sustained without inflating PR code size in complex computational workflows.
+
+⚠️ Limitations
+Generalizability: Analyzes two high-velocity infrastructure repos; patterns may differ in general application domains.
+
+Causality: Temporal correlations across development eras do not imply direct causality from specific AI tools.
+
+Bot Detection: Identification relies on observable GitHub metadata, account flags, and heuristic comment patterns.
+
+📑 Citation
+If you use this repository, dataset, or code in your research, please cite:
+
+Code snippet
+@article{li2026engineering,
+  title={Engineering Signals of Human-AI Collaboration in the Agentic Coding Era: A Longitudinal Analysis of 33,228 Pull Requests from vLLM and SGLang with Implications for Biomedical AI Agents and Bioinformatics Pipeline Development},
+  author={Li, Jiada and Ye, Xuesong and Olowoniyi, Olamide},
+  journal={arXiv preprint arXiv:2608.13884},
+  year={2026},
+  doi={10.48550/arXiv.2608.13884}
+}
+📜 License & Contact
+Code License: MIT License
+
+Data License: Derived from public GitHub repository data; subject to upstream terms.
+
+Contact: Open a GitHub issue or contact Jiada Li (jiadali2017@gmail.com.
