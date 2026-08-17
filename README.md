@@ -36,14 +36,20 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 ---
 
 ## ❓ Research Questions
+1. **RQ #1 :** How do seven quantitative engineering metrics (PR throughput, cycle time, unique authors per month, comment density, monthly merge rate, new-author share, and PR size) evolve across four eras of AI tooling adoption in high-velocity open-source AI infrastructure projects?
+2. **RQ #2 :** What behavioral signals indicate shifts in human-AI collaboration patterns within software engineering teams, and how can these be detected from repository-level data?
+3. **RQ #3 :** How do these metrics and signals map to specialized life-science engineering contexts, specifically bioinformatics pipeline development?
 
-1. **RQ1 (Throughput):** How has pull-request throughput changed across the evolution of AI-assisted software development?
-2. **RQ2 (Cycle Time):** How have pull-request cycle times changed across development eras?
-3. **RQ3 (Contributor Participation):** How has contributor participation and diversity evolved over time?
-4. **RQ4 (Review & Collaboration):** How has PR comment activity changed, including the contribution of automated bot comments?
-5. **RQ5 (Integration Outcomes):** How have merge rates changed across development eras?
-6. **RQ6 (New-Author Participation):** Has the onboarding rate of new contributors changed over time?
-7. **RQ7 (PR Size):** Has increased development throughput been accompanied by changes in individual PR code footprint?
+---
+
+## 📉 7 quantitative engineering metrics
+1. **Metric 1 (Throughput):** How has pull-request throughput changed across the evolution of AI-assisted software development?
+2. **Metric 2 (Cycle Time):** How have pull-request cycle times changed across development eras?
+3. **Metric 3 (Contributor Participation):** How has contributor participation and diversity evolved over time?
+4. **Metric 4 (Review & Collaboration):** How has PR comment activity changed, including the contribution of automated bot comments?
+5. **Metric 5 (Integration Outcomes):** How have merge rates changed across development eras?
+6. **Metric 6 (New-Author Participation):** Has the onboarding rate of new contributors changed over time?
+7. **Metric 7 (PR Size):** Has increased development throughput been accompanied by changes in individual PR code footprint?
 
 ---
 
