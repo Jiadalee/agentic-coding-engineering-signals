@@ -42,7 +42,7 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 
 ---
 
-## 📉 7 quantitative engineering metrics
+## 📉 7 Quantitative Engineering Metrics
 1. **Metric 1 (Throughput):** How has pull-request throughput changed across the evolution of AI-assisted software development?
 2. **Metric 2 (Cycle Time):** How have pull-request cycle times changed across development eras?
 3. **Metric 3 (Contributor Participation):** How has contributor participation and diversity evolved over time?
