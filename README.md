@@ -21,6 +21,8 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 - **vLLM** (`vllm-project/vllm`): Feb 2023 – Jun 2026 (18,290 PRs)
 - **SGLang** (`sgl-project/sglang`): Jan 2024 – Jun 2026 (14,938 PRs)
 
+<img width="6947" height="3171" alt="fig1_pr_throughput_timeseries_v6" src="https://github.com/user-attachments/assets/9e29a503-eed9-420c-9fe4-0fc0e2916240" />
+
 ### Key Findings
 
 - **Throughput Growth:** PR throughput increased **21×** in vLLM and **17.9×** in SGLang across four development eras.
@@ -28,6 +30,8 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 - **Accelerated Cycle Times:** Median cycle time reached **1.04 days** (vLLM) and **0.62 days** (SGLang) in the latest era, though P90 tail latencies remained higher (16.8 and 14.3 days, respectively).
 - **Increased Interaction Density:** PR comment density increased **4.2×** in vLLM and **3.8×** in SGLang, with bot-generated comments contributing an estimated **15–20%** of the overall increase.
 - **Stable PR Footprint:** In contrast to the massive changes in throughput and comment volume, PR sizes remained relatively stable across eras.
+
+<img width="7947" height="3405" alt="fig3_contributor_breadth_scatter_regression_v6" src="https://github.com/user-attachments/assets/002a2b2a-e451-4144-a456-f9bbec872dc1" />
 
 ---
 
