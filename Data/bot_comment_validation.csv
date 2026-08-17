@@ -1,0 +1,11 @@
+project,pr_number,year_month,comments_search_api,comments_fetched,bot_comments,human_comments,bot_share,bot_logins
+vLLM,12959,2025-02,6,6,1,5,0.16666666666666666,github-actions[bot]
+vLLM,27457,2025-11,8,8,1,7,0.125,mergify[bot]
+vLLM,35838,2026-03,6,6,0,6,0.0,
+vLLM,27577,2025-12,14,14,2,12,0.14285714285714285,mergify[bot]
+vLLM,24668,2025-09,6,6,1,5,0.16666666666666666,github-actions[bot]
+SGLang,23331,2026-05,8,8,3,5,0.375,gemini-code-assist[bot];github-actions[bot]
+SGLang,25650,2026-05,7,7,1,6,0.14285714285714285,gemini-code-assist[bot]
+SGLang,8083,2025-08,7,7,1,6,0.14285714285714285,gemini-code-assist[bot]
+SGLang,10510,2025-10,6,6,0,6,0.0,
+SGLang,26588,2026-06,92,92,1,91,0.010869565217391304,gemini-code-assist[bot]
