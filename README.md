@@ -67,11 +67,8 @@ This study presents a descriptive longitudinal analysis of **33,228 merged Pull 
 ├── sample_bot_comments.py               # Draw random samples of bot comments
 ├── validate_bot_comments.py             # Audit bot comment precision
 ├── generate_figures.py                  # Reproduce paper visualizations (Figures 1–9)
-│
-├── manuscript_references.bib            # Primary bibliography file
-├── manuscript_references_v2.bib         # Expanded/updated bibliography
-├── README.md
-└── requirements.txt
+├── manuscript_references.bib            # Primary bibliography file                                   
+└── requirements.txt                     # Required python modules to be installed before run the analysis
 ```
 
 ---
